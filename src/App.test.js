@@ -3,7 +3,21 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+  const topElement = document.createElement('div');
+  ReactDOM.render(<App />, topElement);
+  ReactDOM.unmountComponentAtNode(topElement);
+});
+
+it('contains MenuBar', () => {
+  const topElement = document.createElement('div');
+  ReactDOM.render(<App />, topElement);
+  const component = topElement.querySelector('.MenuBar')
+  expect(component).not.toBe(null)
+})  
+
+it('contains Content', () => {
+  const topElement = document.createElement('div');
+  ReactDOM.render(<App />, topElement);
+  const component = topElement.querySelector('.Content')
+  expect(component).not.toBe(null)
 });

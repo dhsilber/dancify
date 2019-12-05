@@ -1,0 +1,7 @@
+.MenuBar {
+    background-color: purple;
+    min-height: calc(56px + 7vmin);
+    font-size: calc(30px + 6vmin);
+    justify-content: left;
+    color: #04f0f8;
+}
