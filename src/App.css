@@ -3,10 +3,6 @@
   background-color: purple;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
   /* background-color: #282c34; */
   background-color: purple;
@@ -21,4 +17,9 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+body {
+  height: 100vh;
+  background-color: green;
 }

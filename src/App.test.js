@@ -15,9 +15,9 @@ it('contains MenuBar', () => {
   expect(component).not.toBe(null)
 })  
 
-it('contains Content', () => {
+it('contains Activate', () => {
   const topElement = document.createElement('div');
   ReactDOM.render(<App />, topElement);
-  const component = topElement.querySelector('.Content')
+  const component = topElement.querySelector('.Activate')
   expect(component).not.toBe(null)
 });
