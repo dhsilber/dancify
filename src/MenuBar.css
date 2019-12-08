@@ -1,7 +1,15 @@
 .MenuBar {
     background-color: purple;
-    min-height: calc(56px + 7vmin);
-    font-size: calc(30px + 6vmin);
+    min-height: 25vh;
+    font-size: calc(30px + 16vmin);
+    justify-content: left;
+    color: #04f0f8;
+}
+
+.MenuBar-appVersion {
+    background-color: purple;
+    min-height: calc(5px + 2vmin);
+    font-size: calc(3px + 2vmin);
     justify-content: left;
     color: #04f0f8;
 }
