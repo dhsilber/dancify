@@ -1,0 +1,9 @@
+.Content {
+    background-color: lightgray;
+    /* min-height: calc(10vh); */
+    /* font-size: calc(3px + 2vmin);
+    text-justify: left;
+    line-height: 50vh;
+    height: 75vh; */
+    color: turquoise;
+}
